@@ -1,0 +1,19 @@
+{
+  "name": "advent-of-code-2017",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "prettier": "^1.8.2"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
