@@ -10,5 +10,6 @@ readFile(`${__dirname}/input/1.txt`).then(input => {
 
 readFile(`${__dirname}/input/2.txt`).then(input => {
   console.log(`Answer to day 2 (part 1) is: ${day2.part1(input)}.`)
+  console.log(`Answer to day 2 (part 2) is: ${day2.part2(input)}.`)
   console.log(`\n${'* '.repeat(40)}\n`)
 })
